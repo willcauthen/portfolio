@@ -1,25 +1,60 @@
 <div class="container">
 	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-6 jumbotron">
-		<%= image_tag("blarg.jpg", size: '200x150', :class => 'blarg') %>
-		<h3>Look on my works, ye mighty, and despair</h3>
+		<div class="col-md-3"></div>
+		<div class="col-md-6 jumbotron">
+			<div class="col-lg-4">
+				<%= link_to image_tag("blarg.jpg", size: '200x150', :class => 'blarg'), about_path %>
+			</div>
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<h3>Look on my works, ye mighty, and despair</h3>
+			</div>
 		</div>
-		<div class="col-sm-3"></div>
+		<div class="col-md-3"></div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-6 jumbotron">**</div>
-		<div class="col-sm-3"></div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6 jumbotron">
+			<div class="col-lg-4">
+				<p>Here is a description of looking for group</p>
+			</div>
+			<div class="col-lg-4">
+				<%= link_to image_tag("lfg.png", size: '300x150'), 'http://lfg-meetup.herokuapp.com/', :target => "_blank" %>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-6 jumbotron">**</div>
-		<div class="col-sm-3"></div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6 jumbotron">
+			<div class="col-lg-4">
+				<p>here is the description</p>
+			</div>
+			<div class="col-lg-4">
+				<%= link_to image_tag("fortune2.png", size: '300x150'), 'https://nihilistic-fortune-cookies.herokuapp.com/', :target => "_blank" %>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-6 jumbotron">**</div>
-		<div class="col-sm-3"></div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6 jumbotron">
+			<div class="col-lg-4">
+				<p>here is the description</p>
+			</div>
+			<div class="col-lg-4">
+				
+				<%= link_to image_tag("vagabond.png", size: '300x150'), 'https://projectvagabond.herokuapp.com/', :target => "_blank" %>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 jumbotron">
+			<div class="col-md-6">Col in a col</div>
+			<div class="col-md-6">Nested columns</div>
+		</div>
+		<div class="col-md-3"></div>
 	</div>
 </div>
