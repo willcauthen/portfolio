@@ -13,9 +13,20 @@ body {
 .blarg {
 	border-radius: 5%;
 	margin: 20px;
-	max-height: 300px;
+	max-height: 200px;
 }
 
+.thumbnail {
+  margin: 0 200px;
+}
 div.panel-body {
 	padding: 35px;
+}
+
+div.header {
+  height: 0%;
+}
+
+h3 {
+  text-align: center;
 }
